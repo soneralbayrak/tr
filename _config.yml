@@ -1,0 +1,108 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Soner Albayrak
+title: Researcher
+email: contact@soneralbayrak.com
+#website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: albayraks
+github_username:  soneralbayrak
+stackoverflow_username: "12324104"
+# dribbble_username: jekyll
+facebook_username: albayraksoner
+# flickr_username: jekyll
+instagram_username: "snr_albayrak"
+linkedin_username: soneralbayrak
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: :Soner Albayrak"
+# googleplus_username: +jekyll
+orcid_username: 0000-0002-9223-0115
+
+# Additional icon links
+additional_links:
+- title: Inspirehep Profile
+  icon: fas fa-scroll
+  url: https://inspirehep.net/authors/1375262
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/SA.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Welcome to this site! I'm a theoretical physicist and this is my <mark>portfolio</mark>. At the top of the page, you can find various icons leading to social platforms which detail who I am -- both personally and profesionally. I would consider myself as a rather chill and an approachable person so please do not hesitate to contact me, even if it is just to say hi!
+
+  Cheers!
+
+content:
+  - title: Some Details # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        #title: The Boring Company
+        # link_text: boringcompany.com
+        sub_title: Professional
+        description: | # this will include new lines to allow paragraphs
+            - Interested in cosmology, conformal bootstrap, and holography
+            - Postdoctoral researcher in the string theory group at the University of Amsterdam
+            - Received PhD from Yale University
+            - <a href="https://docs.google.com/viewer?url=https://github.com/soneralbayrak/resume/raw/master/soner_albayrak_resume.pdf" target="_blank">CV</a> 
+      - layout: left
+        sub_title: Personal 
+        description: |
+            - Casual anime fan (AoT, FMA, GuP)
+            - Casual strategy gamer (EU, HoI, Civilization)
+            - Sporadic youtuber
+            - Ex-engineer
+
+  - title: Further Content # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "Blog (Turkish & English)"
+        link: https://campuspress.yale.edu/soneralbayrak/
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fas fa-university
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+         I use this blog mostly for personal archieve of interesting stuff I stumble upon!
+
+        #description: | # this will include new lines to allow paragraphs
+        #  I started this project as a way if learning <mark>React</mark> and
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
