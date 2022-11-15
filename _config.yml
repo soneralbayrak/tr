@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Soner Albayrak
-title: Researcher
+title: Kuramsal Fizikçi
 email: contact@soneralbayrak.com
 #website: www.github.com/sproogen/resume-theme
 
@@ -48,36 +48,36 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/SA.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to this site! I'm a theoretical physicist and this is my <mark>portfolio</mark>. At the top of the page, you can find various icons leading to social platforms which detail who I am -- both personally and profesionally. I would consider myself as a rather chill and an approachable person so please do not hesitate to contact me, even if it is just to say hi!
+  Hoşgeldiniz! <mark><a href="https://soneralbayrak.com">Please click to display the site in English!</a></mark>
 
-  Cheers!
+  Sayfanın sağ üst köşesindeki butonlara tıklayarak çeşitli platformlardaki profillerimi görüntüleyebilir, hem kişisel hem profesyonel bilgilerime ulaşabilirsiniz. Bence gayet sıcak kanlı ve rahat bir insanım, bu yüzden selam vermek için dahi olsa yazmaya çekinmeyin.
 
 content:
-  - title: Some Details # Title for the section
+  - title: Bazı Bilgiler # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         #title: The Boring Company
         # link_text: boringcompany.com
-        sub_title: Professional
+        sub_title: Profesyonel
         description: | # this will include new lines to allow paragraphs
-            - Interested in cosmology, conformal bootstrap, and holography
-            - Postdoctoral researcher in the string theory group at the University of Amsterdam
-            - Received PhD from Yale University
-            - <a href="https://docs.google.com/viewer?url=https://github.com/soneralbayrak/resume/raw/master/soner_albayrak_resume.pdf" target="_blank">CV</a> 
+            - Kozmoloji, konformal özçözüm, ve holografi ile ilgileniyorum
+            - Amsterdam Üniversitesi'nde doktora sonrası araştırma görevlisiyim
+            - Doktoramı Yale Üniversitesi'nden aldım
+            - <a href="https://docs.google.com/viewer?url=https://github.com/soneralbayrak/resume/raw/master/soner_albayrak_resume.pdf" target="_blank">CV (İngilizce)</a> 
       - layout: left
-        sub_title: Personal 
+        sub_title: Kişisel 
         description: |
-            - Casual anime fan (AoT, FMA, GuP)
-            - Casual strategy gamer (EU, HoI, Civilization)
-            - Sporadic youtuber
-            - Ex-engineer
+            - Arada sırada anime izlerim (AoT, FMA, GuP)
+            - Vakit buldukça strateji oyunları oynarım (EU, HoI, Civilization)
+            - Düzensizce Youtube'a video yüklerim
+            - Bir zamanlar mühendistim (diploma hala duruyor)
 
-  - title: Further Content # Title for the section
+  - title: Daha başka bilgiler # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: "Blog (Turkish & English)"
+        title: "Bloğum (Türkçe İngilizce karışık)"
         link: https://campuspress.yale.edu/soneralbayrak/
         # link_text: Project Website
         #additional_links:
@@ -88,14 +88,14 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-         I use this blog mostly for personal archieve of interesting stuff I stumble upon!
+         Sağda solda denk gelip güzelmiş bunu unutmayayım dediğim şeyleri depoladığım bir yer!
 
         #description: | # this will include new lines to allow paragraphs
         #  I started this project as a way if learning <mark>React</mark> and
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+ references_title: Talep üzerine referans sağlanır
 
 # Build settings
 remote_theme: sproogen/resume-theme
