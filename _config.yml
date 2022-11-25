@@ -76,19 +76,30 @@ content:
   - title: Daha başka bilgiler # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: "Bloğum (Türkçe İngilizce karışık)"
+      - layout: left
+        link: https://soneralbayrak.com/oteberi
+        link_text: https://soneralbayrak.com/oteberi
+        sub_title: Öteberi
+        description: |
+          Sağda solda denk gelip güzelmiş bunu unutmayayım dediğim şeyleri depoladığım Türkçe bir blog.
+      - layout: left
+        link: https://soneralbayrak.com/miscellaneous
+        link_text: https://soneralbayrak.com/miscellaneous
+        sub_title: Miscellaneous
+        description: |
+          Sağda solda denk gelip güzelmiş bunu unutmayayım dediğim şeyleri depoladığım İngilizce bir blog.
+      - layout: left
+        link: https://soneralbayrak.com/academictrivia
+        link_text: https://soneralbayrak.com/academictrivia
+        sub_title: Academic Trivia
+        description: |
+        Akademideyle ilgili basit konularda fikirlerimi, görüşlerimi, ve bildiklerimi paylaştığım karışık dilde bir blog.
+      - layout: left
         link: https://campuspress.yale.edu/soneralbayrak/
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fas fa-university
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-         Sağda solda denk gelip güzelmiş bunu unutmayayım dediğim şeyleri depoladığım bir yer!
+        link_text: https://campuspress.yale.edu/soneralbayrak/
+        sub_title: Eski Bloğum
+        description: |
+          Buradaki bütün içerik yavaş yavaş yukarıdaki bloglara aktarılıyor: işlem bitince bu eski blog silinecek!
 
         #description: | # this will include new lines to allow paragraphs
         #  I started this project as a way if learning <mark>React</mark> and
