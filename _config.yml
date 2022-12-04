@@ -48,9 +48,8 @@ additional_links:
 about_title: Hakkımda
 about_profile_image: images/SA.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hoşgeldiniz! <mark><a href="https://soneralbayrak.com">Please click to display the site in English!</a></mark>
-
-  Sayfanın sağ üst köşesindeki butonlara tıklayarak çeşitli platformlardaki profillerimi görüntüleyebilir, hem kişisel hem profesyonel bilgilerime ulaşabilirsiniz. Bence gayet sıcak kanlı ve rahat bir insanım, bu yüzden selam vermek için dahi olsa yazmaya çekinmeyin.
+  <p>Hoşgeldiniz! <mark><a href="https://soneralbayrak.com">Please click to display the site in English!</a></mark></p>
+  <p>Sayfanın sağ üst köşesindeki butonlara tıklayarak çeşitli platformlardaki profillerimi görüntüleyebilir, hem kişisel hem profesyonel bilgilerime ulaşabilirsiniz. Bence gayet sıcak kanlı ve rahat bir insanım, bu yüzden selam vermek için dahi olsa yazmaya çekinmeyin.</p>
 
 content:
   - title: Bazı Bilgiler # Title for the section
@@ -73,7 +72,7 @@ content:
             - Düzensizce Youtube'a video yüklerim
             - Bir zamanlar mühendistim (diploma hala duruyor)
 
-  - title: Daha başka bilgiler # Title for the section
+  - title: Diğer içerikler # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -103,6 +102,19 @@ content:
 
         #description: | # this will include new lines to allow paragraphs
         #  I started this project as a way if learning <mark>React</mark> and
+      - layout: text
+        description: |
+          <div class="rowSA">
+          <div class="columnSA">
+            <h3>Chaoskampf</h3>
+            <a href='https://en.wikipedia.org/wiki/Chaos_(cosmogony)#Chaoskampf' title='Struggle against chaos'><img src="images/chaoskampf.png"/></a>
+          </div>
+          <div class="columnSA">
+            <h3>Ziyaretçi Kaydı</h3>
+            <a href='https://clustrmaps.com/site/1brph'  title='Ziyaret takibi'><img src='//clustrmaps.com/map_v2.png?cl=e6e6e6&w=382&t=m&d=bMogZdwIPWN3efwlqjIn5f_RX77ALLz_axKSr3jvT40&co=222222&ct=e6e6e6'/></a>
+          </div>
+          </div>
+
 
 # Footer
 footer_show_references: true

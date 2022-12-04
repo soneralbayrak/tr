@@ -3,3 +3,15 @@
 ---
 
 @import 'modern-resume-theme';
+
+.columnSA {
+    float: right;
+    max-width: 392px;
+    padding: 0px;
+  }
+
+.rowSA:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
