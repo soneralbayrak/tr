@@ -99,7 +99,12 @@ content:
         sub_title: Eski Bloğum
         description: |
           Buradaki bütün içerik yavaş yavaş yukarıdaki bloglara aktarılıyor: işlem bitince bu eski blog silinecek!
-
+      - layout: left
+        link: https://soneralbayrak.com/universe2048/
+        link_text: https://soneralbayrak.com/universe2048/
+        sub_title: Basit bir tarayıcı oyunu
+        description: |
+          Bir zamanlar baya meşhur olmuş <a href="https://play2048.co/" target="_blank">2048</a> oyununun parçacık fiziğine giriş dersi verirmişcesine değiştirilmiş bir kopyası.
         #description: | # this will include new lines to allow paragraphs
         #  I started this project as a way if learning <mark>React</mark> and
       - layout: text
