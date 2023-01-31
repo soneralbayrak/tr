@@ -31,9 +31,12 @@ orcid_username: 0000-0002-9223-0115
 
 # Additional icon links
 additional_links:
-- title: Inspirehep Profile
+- title: Inspirehep Profili
   icon: fas fa-scroll
   url: https://inspirehep.net/authors/1375262
+- title: Mastodon Profili
+  icon: fab fa-mastodon
+  url: https://mastodon.social/@soneralbayrak
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
