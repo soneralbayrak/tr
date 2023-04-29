@@ -97,12 +97,6 @@ content:
         description: |
           Akademideyle ilgili basit konularda fikirlerimi, görüşlerimi, ve bildiklerimi paylaştığım karışık dilde bir blog.
       - layout: left
-        link: https://campuspress.yale.edu/soneralbayrak/
-        link_text: https://campuspress.yale.edu/soneralbayrak/
-        sub_title: Eski Bloğum
-        description: |
-          Buradaki bütün içerik yavaş yavaş yukarıdaki bloglara aktarılıyor: işlem bitince bu eski blog silinecek!
-      - layout: left
         link: https://soneralbayrak.com/universe2048/
         link_text: https://soneralbayrak.com/universe2048/
         sub_title: Basit bir tarayıcı oyunu
