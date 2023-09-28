@@ -79,6 +79,12 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        link: https://soneralbayrak.com/teaching
+        link_text: https://soneralbayrak.com/teaching
+        sub_title: Öğretim
+        description: |
+          ODTÜ'de verdiğim derslerle ilgili detayları içeren İngilizce bir site.
+      - layout: left
         link: https://soneralbayrak.com/oteberi
         link_text: https://soneralbayrak.com/oteberi
         sub_title: Öteberi
